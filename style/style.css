@@ -1,0 +1,191 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* INICIO HEADER*/
+
+
+
+
+.header .container0{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    background-color: lightsteelblue;
+   
+}
+
+/* TERMINA EL HEADER*/
+
+.hrIndex {
+    margin-top: 250px;
+}
+
+
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: navy;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 300px 5px 400px;
+}
+
+.titulo2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: navy;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 300px 5px 400px;
+}
+
+.titulo3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: gray;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 300px 5px 400px;
+}
+
+/*CONATINER*/
+
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 20%;
+    grid-area:
+        "texto1";
+}
+
+.parrafoHome {
+    grid-area: texto1;
+    justify-self: center;
+    font-weight: bold;
+    background-color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+/*TERMINA CONTAINER*/
+
+/*INCIO FOOTER*/
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    background-color: lightsteelblue;
+    align-items: center;
+}
+
+.mapaIndex2 {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+/*TERMINO FOOTER*/
+
+/* Nosotros*/
+
+.container5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10fr;
+    margin-top: 100px;
+    grid-area: 
+    "videoNosotros1" "videoNosotros2"
+    "parrafoNosotros1" "parrafoNosotros2";
+}
+
+.videoNosotros1{
+    grid-area: videoNosotros1
+}
+.videoNosotros2{
+    grid-area: videoNosotros2
+}
+
+
+.parrafoNosotros1{
+    grid-area: parrafoNosotros1; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    justify-self: auto;
+    align-self: auto;
+    color: darkgrey;
+    
+}
+
+.parrafoNosotros2{
+    grid-area: parrafoNosotros2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    justify-self: auto;
+    align-self: auto;
+    color: darkgrey;
+    
+}
+/* El video queda anclado en posisicón absoluta, no pued adaptarlo a pantallas (responsive). Preguntar.*/
+.hrNosotros {
+    margin-top: 250px;
+}
+
+/* TERMINO NOSOTROS*/
+
+/*SERVICIOS*/
+/*TERMINO SERVICIOS*/
+
+/*MATERIALES*/
+/*TERMINO MATERIALES*/
+
+
+/*CONTACTO*/
+
+.tituloContacto {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+/* el formulario no permite ingresar valores. preguntar*/
+
+.mapaContacto {
+    position: absolute;
+    top: 150px;
+    padding-right: 150px;
+    left: 30px;
+}
+
+.hrContacto {
+    margin-top: 550px;
+}
+
+/*TERMINO CONTACTO*/
